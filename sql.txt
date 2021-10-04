@@ -1,0 +1,5 @@
+mysql -u root -p
+
+create database cafe_house;
+use cafe_house;
+create table feedback(no int not null auto_increment,name text not null,email text not null,comment text not null,r1 int not null,r2 int not null,r3 int not null,r4 int not null,r5 int not null,last_rate double not null,primary key(no));
